@@ -1,48 +1,42 @@
-# Name of your site (displayed in the header)
-name: Gertjan Bisschop
+title: ""
+author: "Gertjan Bisschop"
+description: "whoami" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
-# Short bio or description (displayed in the header)
-description: whoami
+# Email / Social media user names used by the minima theme:
+# All of these are optional and can be removed or commented out
+#email: "example@mail.com"
+#twitter_username: "twitteruser"
+github_username: "GertjanBisschop"
+linkedin_username: "gertjan-bisschop-924692152"
+#facebook_username: username
+#flickr_username: username
+#instagram_username: username
+#pinterest_username: username
+#youtube_username: username
+#googleplus_username: +username
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-#avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+#########################################################################################
+######### Nothing below needs to be changed (unless you know what you're doing) #########
+#########################################################################################
+theme: "minima"
 
+rss: rss
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  github: GertjanBisschop
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 
+titles_from_headings:
+  strip_title: true
+  collections: true
 
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: https://GertjanBisschop.github.io
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-permalink: /:title/
-
-
-# Set the Sass partials directory, as we're using @imports
-#sass:
-#  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other

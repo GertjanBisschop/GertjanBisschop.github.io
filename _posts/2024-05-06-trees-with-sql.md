@@ -16,6 +16,7 @@ Edges and nodes.
 ### ORM
 
 Setting up the mapping.
+The basic setup is based on code by [Joseph Lee](https://medium.com/@joeylee08/object-relational-mapping-from-python-to-sql-and-back-cd629eca0060)
 
 #### The Python code
 
@@ -182,3 +183,4 @@ for edge in ts.edges():
     # create edge(id, left, right, parent, child)
     Edge.create(edge.id, edge.left, edge.right, edge.parent, edge.child)
 ```
+

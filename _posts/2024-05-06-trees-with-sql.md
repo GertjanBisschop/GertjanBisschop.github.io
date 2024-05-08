@@ -13,7 +13,7 @@ format to be stored inside an SQL database (and back).
 ### The tree format.
 We will be using the *tskit* library encoding to provide an existing object-oriented
 Python API to interact with binary trees. This cool library can do much more sophisticated stuff.
-Go check it out if you're interested in genetics and/or graphs: [tskit](tskit.dev).
+Go check it out if you're interested in genetics and/or graphs: [*tskit*](tskit.dev).
 
 Any tree can be encoded by describing the relations between the edges and nodes. For this example
 we will be using the following tree,
@@ -26,10 +26,15 @@ import tskit
 
 # generate a random binary tree
 recombination_rate = 0.0
-ts = msprime.sim_ancestry(5, recombination_rate=recombination_rate, sequence_length=10, random_seed=42)
+ts = msprime.sim_ancestry(
+    5, 
+    recombination_rate=recombination_rate, 
+    sequence_length=10, 
+    random_seed=42
+)
 ts.draw_svg()
 ```
-![tree](_figures/tree_with_sql/tree.png)
+![tree](../_figures/tree_with_sql/tree.png)
 
 ### ORM
 

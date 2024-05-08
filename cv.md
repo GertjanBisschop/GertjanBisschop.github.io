@@ -6,7 +6,7 @@ permalink: /cv/
 
 ## Work Experience
 
-### **now - 2022**: Postdoctoral Research Associate
+### now - 2022: Postdoctoral Research Associate
 @ Big Data Institute, University of Oxford, Kelleher group
 #### projects:
 * Lead developer of genomic dataset and ancestry simulator *msprime*.
@@ -15,7 +15,9 @@ permalink: /cv/
 * Enabling the efficient computation of likelihoods for a broader class
 of Ancestral Recombination Graphs.
 
-### **2018 - 2022**: PhD
+---
+
+### 2018 - 2022: PhD
 @ University of Edinburgh, Lohse Lab
 
 #### projects:
@@ -25,6 +27,8 @@ bioinformatics pipeline identifying barriers to gene flow (gIMble) ([paper](http
 * statistical method and associated workflow to perform genome scans for beneficial
 mutations, outperforming existing approaches ([paper](https://academic.oup.com/genetics/article/219/2/iyab119/6337979)).
 * agemo: a graph-based automatic differentiation toolkit speeding up existing inference methods 1000x ([paper](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010532)).
+
+---
 
 ## Selection of publications
 

@@ -36,6 +36,11 @@ ts.draw_svg()
 ```
 ![tree](../_figures/tree_with_sql/tree.png)
 
+<p align="center">
+  <img src="../_figures/tree_with_sql/tree.png" />
+</p>
+
+
 ### ORM
 
 Object relational mapping is a technique that allows you to interact with a relational database using

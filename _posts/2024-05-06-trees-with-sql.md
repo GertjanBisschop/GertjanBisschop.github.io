@@ -33,8 +33,6 @@ ts = msprime.sim_ancestry(
     random_seed=42
 )
 ts.draw_svg()
-```
-![tree](../_figures/tree_with_sql/tree.png)
 
 <p align="center">
   <img src="../_figures/tree_with_sql/tree.png" />

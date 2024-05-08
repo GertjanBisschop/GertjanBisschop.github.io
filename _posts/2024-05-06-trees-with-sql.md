@@ -5,20 +5,22 @@ title:  "Trees with SQL"
 
 ## Trees with SQL
 
-How can we use a (sql) database to encode and traverse a binary tree?
-
-ORM: object relational mapping
-Mapping of Python objects to table format to be stored inside an SQL database (and back).
+Aim of this post: 
+    * How can we use a (sql) database to encode and traverse a binary tree?
+    * ORM: Using object relational mapping, Python objects can be mapped to
+    table format to be stored inside an SQL database (and back).
 
 ### The tree format.
-Edges and nodes.
+We will be using the *tskit* library encoding to provide an existing object-oriented
+Python API to interact with binary trees. This cool library can do much more sophisticated stuff.
+Go check it out if you're interested in genetics and/or graphs: (tskit)[tskit.dev].
+
+The basics of the *tskit* format: edges and nodes.
 
 ### ORM
 
 Setting up the mapping.
-The basic setup is based on code by [Joseph Lee](https://medium.com/@joeylee08/object-relational-mapping-from-python-to-sql-and-back-cd629eca0060)
-
-#### The Python code
+The basic setup is based on code by [Joseph Lee](https://medium.com/@joeylee08/object-relational-mapping-from-python-to-sql-and-back-cd629eca0060).
 
 ```python
 
@@ -35,10 +37,8 @@ ts.draw_svg()
 ```python
 #sqlite3 has a connect() method which accepts a .db file as a destination
 CONN = sql.connect('ts.db')
-
 #once we establish our connection and assign it to CONN, we create a CURSOR
-CURSOR = CONN.cursor() 
-
+CURSOR = CONN.cursor()
 #this CURSOR object contains all the methods we will need for our ORM tasks
 ```
 

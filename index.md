@@ -1,13 +1,11 @@
-Experienced software engineer and data scientist with a strong foundation in statistical genetics, offering expertise in developing and implementing data-driven solutions to problems in genomics. Proficient in applying
-probabilistic approaches to complex (biological) problems, I specialize in crafting algorithms and data workflows that
-optimize insights from large-scale datasets. Skilled in leveraging high performance computing services for efficient
-data processing, my experience extends to designing and implementing scalable solutions for diverse research needs.
-From task automation to advanced statistical modeling, I excel in devising innovative strategies to extract meaningful
-insights from complex biological data.
+I am an experienced software engineer and data scientist with a background in statistical genetics.
+I am a huge advocate of open-source software as a way to promote knowledge-sharing and collaboration.
+Making code openly available ensures a larger group of people can test and potentially improve what they
+consider to be a valuable resource.
 
-I have contributed to and/or designed multiple open-source software tools:
+I have contributed to and/or designed multiple **open-source software tools**:
 * [msprime](https://github.com/tskit-dev/msprime)
-* [agemo](https://github.com/LohseLab/agemo)
 * [tskit](https://github.com/tskit-dev/tskit)
+* [agemo](https://github.com/LohseLab/agemo)
 * [gIMble](https://github.com/LohseLab/gimble)
 
